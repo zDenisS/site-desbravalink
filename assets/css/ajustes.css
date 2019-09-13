@@ -1,0 +1,19 @@
+
+/* Tamanho Carousel e imagem */
+.tam-carousel-img, img.img-tam{
+    height: 600px;
+  }
+
+/* modals */
+.img-tam-mod-apoio{
+    height: 100px;
+    margin-left: 10px;
+}  
+
+/*rodapé*/
+
+ul{ /*links de conheça.., apoio, redes sociais*/
+    padding-inline-start: 0px;
+}
+
+/* responsividade */

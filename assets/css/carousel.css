@@ -32,10 +32,6 @@ body {
   min-width: 100%;
   height: 32rem;
 }
-/* Tamanho Carousel e imagem */
-.tam-carousel-img, img.img-tam{
-  height: 600px;
-}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -68,11 +64,6 @@ body {
   letter-spacing: -.05rem;
 }
 
-/* modals */
-.img-tam-mod-apoio{
-  height: 100px;
-  margin-left: 10px;
-}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
