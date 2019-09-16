@@ -23,3 +23,19 @@ ul{ /*links de conheça.., apoio, redes sociais*/
 
 /* responsividade */
 
+h2{
+    font-weight: bold!important;
+    color: white;
+}
+span{
+    color: #007bff !important;
+    font-weight: bold;
+}
+p.lead{
+    font-weight: bold;
+    color: white;
+}
+p#white-bold{
+    font-weight: bold;
+    color: white;
+}
