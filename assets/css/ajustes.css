@@ -8,6 +8,8 @@
 .img-tam-mod-apoio{
     height: 100px;
     margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }  
 
 /*rodapé*/
@@ -21,7 +23,7 @@ ul{ /*links de conheça.., apoio, redes sociais*/
     font-size: 30px;
 }
 
-/* responsividade */
+/* Estilo de texto */
 
 h2{
     font-weight: bold!important;
@@ -39,3 +41,5 @@ p#white-bold{
     font-weight: bold;
     color: white;
 }
+
+/* responsividade */
