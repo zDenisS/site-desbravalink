@@ -43,3 +43,30 @@ p#white-bold{
 }
 
 /* responsividade */
+@media screen and (max-width:736px){
+    #img{
+        width:70%; 
+        display: flex;
+        align-items: center;
+        left: 19%;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    #ajuste{
+        width:70%; 
+        left: 15%;
+    }
+   #centralizar{
+       font-size: 32px;
+       text-align: center;
+   }
+   #lead{
+       font-size: 15px;
+       text-align: center;
+   }
+
+   #esp{
+    margin-top: -70px;
+    margin-bottom: -70px;
+   }
+}
