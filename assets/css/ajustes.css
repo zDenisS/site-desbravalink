@@ -43,6 +43,20 @@ p#white-bold{
 }
 
 /* responsividade */
+@media screen and (max-width:375px){
+   #marcaparceira{
+    margin-left: 10%
+   }
+   #cards-inferior{
+       margin-left: 10%;
+   }
+   h1#titulo1{
+       margin-top: 10%;
+       margin-left: 10%;
+       
+   }
+
+}
 @media screen and (max-width:736px){
     #img{
         width:70%; 
@@ -64,13 +78,18 @@ p#white-bold{
        font-size: 15px;
        text-align: center;
    }
+   #marcaparceira{
+    margin-left: 10%
+   }
+   #cards{
+       margin-left: 10%;
+   }
 
    #esp{
     margin-top: -70px;
     margin-bottom: -70px;
    }
 }
-
 .badge-box {
     position: absolute;
     top: -10px;
@@ -86,3 +105,5 @@ p#white-bold{
     text-align: center;
     z-index: 3;
 }
+
+
