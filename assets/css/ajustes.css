@@ -43,20 +43,7 @@ p#white-bold{
 }
 
 /* responsividade */
-@media screen and (max-width:375px){
-   #marcaparceira{
-    margin-left: 10%
-   }
-   #cards-inferior{
-       margin-left: 10%;
-   }
-   h1#titulo1{
-       margin-top: 10%;
-       margin-left: 10%;
-       
-   }
 
-}
 @media screen and (max-width:736px){
     #img{
         width:70%; 
@@ -81,8 +68,13 @@ p#white-bold{
    #marcaparceira{
     margin-left: 10%
    }
-   #cards{
+   #cards-inferior{
        margin-left: 10%;
+   }
+   h1#titulo1{
+       margin-top: 10%;
+       margin-left: 10%;
+       
    }
 
    #esp{
@@ -90,6 +82,36 @@ p#white-bold{
     margin-bottom: -70px;
    }
 }
+@media screen and (max-width:425px){
+    #marcaparceira{
+     margin-left: 15%;
+    }
+    #cards-superior{
+        margin-left: 10%;
+    }
+    #cards-inferior{
+        margin-left: 13%;
+    }
+    h1#titulo1{
+        margin-top: 5%;
+        margin-left: 10%;   
+    }
+ }
+@media screen and (max-width:375px){
+    #marcaparceira{
+     margin-left: 10%;
+    }
+    #cards-superior{
+        margin-left: 5%;
+    }
+    #cards-inferior{
+        margin-left: 10%;
+    }
+    h1#titulo1{
+        margin-top: 10%;
+        margin-left: 10%;   
+    }
+ }
 .badge-box {
     position: absolute;
     top: -10px;
