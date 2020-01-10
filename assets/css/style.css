@@ -45,8 +45,7 @@ body {
 
 .logo {
     max-width: 100px;
-    padding-left: 0;
-    padding-top: 5px;
+    margin-left: 50;
 }
 
 .header-btn {
@@ -81,7 +80,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 85%;
+    top: 80%;
     margin: auto;
     padding-bottom: 40px;
     text-align: center;
@@ -114,9 +113,9 @@ body {
 .hero-btn {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #25F18B;
+    background-color:  rgb(96, 87, 246);
     border-radius: 10px;
-    border: 1px solid #25F18B;
+    border: 1px solid  rgb(96, 87, 246);
     width: 210px;
     height: 51px;
     color: white;
@@ -124,7 +123,7 @@ body {
 }
 
 .hero-btn:hover {
-    background-color: #6affb4;
+    background-color: #09008b;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -172,6 +171,8 @@ body {
 .features-container {
     max-width: 830px;
     margin: auto;
+    margin-top: 50;
+    margin-bottom: 55;
 }
 
 .feature {
@@ -242,9 +243,6 @@ body {
     text-align: center;
 }
 
-.imac {
-}
-
 .imac-section-header {
     padding-bottom: 35px;
 }
@@ -262,6 +260,7 @@ body {
 .imac-screen {
     padding-top: 60px;
     padding-bottom: 40px;
+    margin-left: 10px;
 }
 
 .macbook {
@@ -270,7 +269,7 @@ body {
 }
 
 .pricing-background {
-    background-color: #F8F9F9;
+    background-color: rgb(232, 240, 240);
 }
 
 .pricing-section-header {
@@ -349,9 +348,9 @@ ul {
 }
 
 .plan-btn {
-    background-color: #0ABCEB;
+    background-color: rgb(96, 87, 246);
     border-radius: 10px;
-    border: #0ABCEB;
+    border: rgb(96, 87, 246);
     width: 164px;
     height: 51px;
     color: white;
@@ -366,7 +365,7 @@ ul {
 }
 
 .plan-btn:hover {
-    background-color: #58d5f7;
+    background-color: #09008b;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -407,7 +406,7 @@ ul {
 }
 
 .blue-section {
-    background-color: #0ABCEB;
+    background-color: black;
     color: white;
     margin: auto;
     text-align: center;
@@ -441,7 +440,7 @@ ul {
 }
 
 .submit-btn {
-    background-color: #25F18B;
+    background-color: rgb(96, 87, 246);
     border-radius: 10px;
     color: #fff;
     height: 51px;
@@ -454,7 +453,7 @@ ul {
 }
 
 .submit-btn:hover {
-    background-color: #6affb4;
+    background-color: #09008b;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -472,9 +471,16 @@ ul {
 }
 
 .footer {
-    background-color: #464646;
+    background-color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.footer-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 }
 
 .webscope-text {

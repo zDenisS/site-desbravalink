@@ -24,7 +24,7 @@ $(document).ready(function () {
     //Mouse click scroll
     $(document).ready(function () {
         $(".mouse").click(function () {
-            $('html, body').animate({scrollTop: '+=750px'}, 1200);
+            $('html, body').animate({scrollTop: '+=705px'}, 1200);
         });
     });
 
