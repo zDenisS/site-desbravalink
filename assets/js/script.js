@@ -38,6 +38,11 @@ $(document).ready(function () {
             $(".feature-head-text").addClass("feature-display");
             $(".feature-subtext").addClass("feature-display");
         }
+        if (scroll >= 500) {
+            $(".feature-icon2").addClass("feature-display");
+            $(".feature-head-text").addClass("feature-display");
+            $(".feature-subtext").addClass("feature-display");
+        }
     });
 
     //Subscribe to newsletter
